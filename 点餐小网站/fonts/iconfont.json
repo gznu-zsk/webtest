@@ -1,0 +1,79 @@
+{
+  "id": "4022954",
+  "name": "4.18",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "35706726",
+      "name": "caret-down-small",
+      "font_class": "caret-down-small-copy",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "35706742",
+      "name": "chevron-down",
+      "font_class": "chevron-down-copy",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "35059811",
+      "name": "warriors",
+      "font_class": "warriors",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "35059820",
+      "name": "lakers",
+      "font_class": "lakers",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "35084186",
+      "name": "logo",
+      "font_class": "apple-line",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "35084189",
+      "name": "列表",
+      "font_class": "apps-fill",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "35084194",
+      "name": "方向",
+      "font_class": "arrow-down-circle-fill",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "35084200",
+      "name": "方向",
+      "font_class": "arrow-down-circle-line",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "35084215",
+      "name": "箭头",
+      "font_class": "arrow-go-forward-fill",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "35084263",
+      "name": "奖励",
+      "font_class": "award-line",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    }
+  ]
+}

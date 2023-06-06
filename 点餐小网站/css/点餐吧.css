@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.woff2?t=1685507375186') format('woff2'),
+        url('iconfont.woff?t=1685507375186') format('woff'),
+        url('iconfont.ttf?t=1685507375186') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    color: white;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.login {
+    width: 100%;
+    height: 530px;
+    background: url(../images/p1.jpg) no-repeat;
+    background-size: 100% 530px;
+    position: fixed;
+}
+
+.login_son1 {
+    width: 300px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 140px auto;
+    position: relative;
+}
+
+.login_x1 {
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+
+.login_son1 ul {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+.login_son1 ul li input {
+    width: 100px;
+    height: 10px;
+}
+
+.login_son1 ul li input:focus {
+    outline: none;
+}
+
+.login_son1 ul li {
+    text-align: right;
+    list-style: none;
+    color: #fff;
+}
+
+.login_son1 span button {
+    width: 140px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: 205px;
+    left: 80px;
+}
+
+.page1 {
+    position: relative;
+    width: 100%;
+    height: 583px;
+    padding-top: 30px;
+}
+
+.page1 .head {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 4px;
+    background-color: gray;
+}
+
+.page1 .head a {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.page1 .head {
+    line-height: 17px;
+    border-radius: 5px;
+}
+
+.page1 .head2 {
+    position: absolute;
+    top: 22px;
+    right: 40px;
+    border-top: 8px solid gray;
+    border-right: 5px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.page1 .y1 {
+    width: 100%;
+    height: 20px;
+    background-color: red;
+    margin-top: 30px auto;
+    position: relative;
+}
+
+.page1 .y1 ul li {
+    float: left;
+    list-style: none;
+    padding-left: 115px;
+    line-height: 20px;
+}
+
+.page1 .y1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.page1 .y1 ul li a:hover {
+    color: skyblue;
+}
+
+.page1 .container {
+    width: 759px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.page1 .photos {
+    width: 2280px;
+    animation: switch 5s ease-out infinite;
+}
+
+.page1 .photos>img {
+    width: 759px;
+    height: 350px;
+    float: left;
+}
+
+@keyframes switch {
+
+    0%,
+    25% {
+        margin-left: 0;
+    }
+
+    35%,
+    60% {
+        margin-left: -760px;
+    }
+
+    70%,
+    100% {
+        margin-left: -1520px;
+    }
+}
+
+.page1 .footer1 {
+    width: 840px;
+    height: 160px;
+    margin: 10px auto;
+}
+
+.page1 .footer1 .x {
+    width: 160px;
+    height: 80px;
+    float: left;
+}
+
+.page1 .footer1 .x .xx1 {
+    width: 160px;
+    height: 65px;
+    border-radius: 20px;
+
+}
+
+.page1 .footer1 .x .xx2 {
+    width: 160px;
+    height: 15px;
+}
+
+.page1 .footer1 .x:nth-child(-n+4) {
+    margin-right: 10px;
+}
+
+.page1 .footer1 .x:nth-child(n+7) {
+    margin-left: 10px;
+}
+
+.page1 .footer1 .xx1 img {
+    width: 80px;
+    height: 65px;
+    border-radius: 20px;
+    transform: translate(40px);
+}
+
+.page1 .footer1 .xx2 {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.content {
+    width: 800px;
+    height: 620px;
+    margin: 30px auto;
+}
+
+.content .c {
+    width: 192px;
+    height: 200px;
+    float: left;
+}
+
+.content .c:nth-child(-n+3) {
+    margin-right: 10px;
+}
+
+.content .c:nth-child(-n+4) {
+    margin-bottom: 10px;
+}
+
+.content .c:nth-child(n+5):nth-child(-n+7) {
+    margin-right: 10px;
+}
+
+.content .c:nth-child(n+5):nth-child(-n+8) {
+    margin-bottom: 10px;
+}
+
+.content .c:nth-child(n+9):nth-child(-n+11) {
+    margin-right: 10px;
+}
+
+.content .c .d1 {
+    width: 192px;
+    height: 140px;
+}
+
+.content .c .d1 img {
+    width: 192px;
+    height: 140px;
+}
+
+.content .c .d2 {
+    width: 192px;
+    height: 20px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.content .c .d3 {
+    width: 192px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.content .c .d3 .dd1 {
+    width: 130px;
+    height: 40px;
+    float: left;
+    margin-right: 0;
+}
+
+.content .c .d3 .dd2 {
+    width: 62px;
+    height: 40px;
+    float: left;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 0;
+    background-color: red;
+}
+
+.content .c .d3 .dd1 .ddd1 {
+    width: 130px;
+    height: 15px;
+}
+
+.content .c .d3 .dd1 .ddd1 .n1 {
+    width: 54px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    font-weight: 100;
+    float: left;
+}
+
+.content .c .d3 .dd1 .ddd1 .n2 {
+    width: 74px;
+    height: 15px;
+    float: left;
+    border-radius: 6px;
+    border: 1px solid red;
+}
+
+.content .c .d3 .dd1 .ddd1 .n2 .n2son {
+    width: 35px;
+    height: 15px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    background-color: red;
+    transition: all 2s;
+}
+
+.content .c .d3 .dd1 .ddd1 .n2 .n2son:hover {
+    width: 100%;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.content .c .d3 .dd1 .ddd2 {
+    width: 130px;
+    height: 25px;
+}
+
+.content .c .d3 .dd1 .ddd2 .m1 {
+    width: 65px;
+    height: 23px;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+
+.content .c .d3 .dd1 .ddd2 .m2 {
+    width: 65px;
+    height: 23px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: line-through;
+    background-color: pink;
+}
+
+.content .c .d3 .dd1 .ddd2 .m1 span {
+    position: absolute;
+    left: 10px;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.content .c .d3 .dd1 .ddd2 .m1 .b1 {
+    position: absolute;
+    top: 0;
+    left: 65px;
+    border-top: 23px solid transparent;
+    border-right: 0px solid white;
+    border-bottom: 0px solid blue;
+    border-left: 10px solid white;
+}

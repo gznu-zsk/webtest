@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4022954 */
+  src: url('iconfont.woff2?t=1685507375186') format('woff2'),
+       url('iconfont.woff?t=1685507375186') format('woff'),
+       url('iconfont.ttf?t=1685507375186') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caret-down-small-copy:before {
+  content: "\e63b";
+}
+
+.icon-chevron-down-copy:before {
+  content: "\e63f";
+}
+
+.icon-warriors:before {
+  content: "\e602";
+}
+
+.icon-lakers:before {
+  content: "\e603";
+}
+
+.icon-apple-line:before {
+  content: "\e64d";
+}
+
+.icon-apps-fill:before {
+  content: "\e64e";
+}
+
+.icon-arrow-down-circle-fill:before {
+  content: "\e64f";
+}
+
+.icon-arrow-down-circle-line:before {
+  content: "\e650";
+}
+
+.icon-arrow-go-forward-fill:before {
+  content: "\e651";
+}
+
+.icon-award-line:before {
+  content: "\e657";
+}
+
