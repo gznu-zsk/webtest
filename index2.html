@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食吧</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- <link rel="stylesheet" href="../css/点餐吧.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @font-face {
+            font-family: "iconfont";
+            src: url('iconfont.woff2?t=1685507375186') format('woff2'),
+                url('iconfont.woff?t=1685507375186') format('woff'),
+                url('iconfont.ttf?t=1685507375186') format('truetype');
+        }
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 16px;
+            color: white;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .login {
+            width: 100%;
+            height: 530px;
+            background: url(../images/p1.jpg) no-repeat;
+            background-size: 100% 530px;
+            position: fixed;
+        }
+
+        .login_son1 {
+            width: 300px;
+            height: 280px;
+            background-color: rgba(0, 0, 0, 0.4);
+            margin: 140px auto;
+            position: relative;
+        }
+
+        .login_x1 {
+            width: 60px;
+            height: 15px;
+            font-size: 12px;
+            color: #fff;
+            text-align: center;
+            line-height: 15px;
+            position: absolute;
+            top: 10px;
+            left: 120px;
+        }
+
+        .login_son1 ul {
+            position: absolute;
+            top: 40px;
+            left: 10px;
+        }
+
+        .login_son1 ul li input {
+            width: 100px;
+            height: 10px;
+        }
+
+        .login_son1 ul li input:focus {
+            outline: none;
+        }
+
+        .login_son1 ul li {
+            text-align: right;
+            list-style: none;
+            color: #fff;
+        }
+
+        .login_son1 span button {
+            width: 140px;
+            height: 30px;
+            background-color: orange;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 25px;
+            position: absolute;
+            top: 205px;
+            left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 这是登录页面开始start -->
+    <div class="login">
+        <div class="login_son1">
+            <div class="login_x1">欢迎登录</div>
+            <ul>
+                <li>用 户 名：<input type="text"></li><br>
+                <li>密码：<input type="password"></li><br>
+                <li>确认密码：<input type="password"></li>
+            </ul>
+            <span><a href="../html/全部商品分类.html"><button>立即登录</button></a></span>
+        </div>
+    </div>
+    <!-- 这是登录页面结束end -->
+</body>
+
+</html>
