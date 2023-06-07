@@ -1,0 +1,283 @@
+.total {
+    width: 1140px;
+    height: 7470px;
+    position: relative;
+}
+.top {
+    position: relative;
+}
+.p2,.top {
+    width: 1140px;
+    height: 160px;
+}
+.t1 {
+    width: 100px;
+    left: 167px;
+    border-radius: 50px;
+}
+.t2 {
+    width: 300px;
+    left: 290px;
+}
+.t1,.t2 {
+    height: 100px;
+    position: absolute;
+    top: 30px;
+}
+.t3 {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 33px;
+    left: 580px;
+}
+.t1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.z1,.z2 {
+    width: 300px;
+    text-align: center;
+    font-family: serif;
+    color: white;
+}
+.z1 {
+    height: 70px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    line-height: 70px;
+    color: black;
+}
+.z2 {
+    height: 25px;
+    font-size: 21px;
+    line-height: 25px;
+    color: black;
+}
+.z3 {
+    width: 300px;
+    height: 70px;
+    font-size: 45px;
+    font-family: serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 70px;
+    color: black;
+}
+.z4 {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+.content {
+    width: 800px;
+    height: 550px;
+    position: absolute;
+    top: 160px;
+    left: 170px;
+}
+.c1 {
+    width: 800px;
+    height: 40px;
+}
+.son1 {
+    width: 38px;
+    height: 38px;
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: #dee1e6;
+}
+.son2,.son3,.son5,
+.son4,.son7,.son8 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #dee1e6;
+}
+.son6 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+}
+.son9 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #dee1e6;
+}
+.son1 a,.son2 a,.son3 a,.son4 a,.son5 a,
+.son6 a,.son7 a,.son8 a,.son9 a {
+    text-decoration: none;
+    color: black;
+}
+.c2 {
+    width: 800px;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 35px;
+    font-family: serif;
+}
+.c3 {
+    width: 793px;
+    height: 1122px;
+    position: absolute;
+    top: 340px;
+    left: 173px;
+}
+.c3 img,.c4 img,.c5 img,
+.c6 img,.c7 img,.c8 img {
+    width: 793px;
+    height: 1122px;
+}
+.c4,.c5,.c6,.c7,.c8 {
+    width: 793px;
+    height: 1122px;
+    position: absolute;
+    left: 173px;
+}
+.c4 {
+    top: 1485px;
+}
+.c5 {
+    top: 2630px;
+}
+.c6 {
+    top: 3780px;
+}
+.c7 {
+    top: 4930px;
+}
+.c8 {
+    top: 6080px;
+}
+.c9 {
+    width: 800px;
+    height: 30px;
+    position: absolute;
+    top: 7220px;
+    left: 170px;
+}
+.y1,.y2,.y3,.y4 {
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+.y1 {
+    width: 50px;
+    font-size: 15px;
+}
+.y2 {
+    width: 330px;
+    margin-right: 40px;
+}
+.y3 {
+    width: 50px;
+    font-size: 15px;
+}
+.y4 {
+    width: 330px;
+}
+.y2 a,.y4 a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.y2 a:hover,.y4 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.c10 {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 7280px;
+    left: 900px;
+}
+.c10 a {
+    font-size: 5px;
+    color: black;
+    text-decoration: none;
+}
+.c11 {
+    width: 900px;
+    height: 30px;
+    position: absolute;
+    top: 7350px;
+    left: 130px;
+    background-color: red;
+}
+.x1,.x2,.x3,.x4,.x5 {
+    height: 30px;
+    float: left;
+    font-size: 5px;
+    color: white;
+    line-height: 30px;
+}
+.x1 {
+    width: 345px;
+    text-align: right;
+}
+.x2 {
+    width: 70px;
+    text-align: center;
+}
+.x3 {
+    width: 70px;
+    text-align: center;
+}
+.x4 {
+    width: 70px;
+    text-align: center;
+}
+.x5 {
+    width: 345px;
+    text-align: left;
+}
+.c12 {
+    width: 800px;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 170px;
+}
+.s1,.s2,.s3 {
+    width: 800px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-style: italic;
+    color: black;
+    font-weight: 100;
+}

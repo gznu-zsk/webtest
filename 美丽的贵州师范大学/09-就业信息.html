@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>就业信息</title>
+    <link rel="stylesheet" href="style09.css">
+    <script>
+        window.onload = function()
+        {
+            var box=this.document.getElementsByClassName("re")[0];
+            var lik=box.getElementsByTagName("li");
+        function fun(i,j)
+        {
+            lik[i].style.opacity=1;
+            lik[j].style.opacity=0;
+            lik[i+5].style.backgroundColor="#ff0000";
+            lik[j+5].style.backgroundColor="#00000000"
+        }
+            fun(0,1);
+            var i =0;
+        function auto()
+        {
+            if(++i>=5)
+            {
+            i=0;
+            fun(0,4);
+        }
+            else fun(i,i-1);
+        }
+            timer=this.setInterval(auto,4000);
+            var j =0;
+            for(;j<5;j++)
+            {
+            lik[j+5].ind=j;
+            lik[j+5].onclick=function()
+            {
+            fun(this.ind,i)
+            i=this.ind;
+    }
+  }
+}
+</script>
+</head>
+<body>
+    <div class="total">
+        <div class="top">
+            <img src="images/p2.png" alt="无法加载该图片" class="p2">
+            <div class="t1"><img src="images/p1.png" alt="无法加载该图片"></div>
+            <div class="t2">
+                <div class="z1" id="school">贵州师范大学</div>
+                <div class="z2">Guizhou Normal University</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="c1">
+                <div class="son1"><a href="01-首页.html">首页</a></div>
+                <div class="son2"><a href="02-学校概况.html">学校概况</a></div>
+                <div class="son3"><a href="03-校内风景.html">校内风景</a></div>
+                <div class="son4"><a href="04-师资队伍.html">师资队伍</a></div>
+                <div class="son5"><a href="05-学科建设.html">学科建设</a></div>
+                <div class="son6"><a href="06-招生简章.html">招生简章</a></div>
+                <div class="son7"><a href="07-管理服务.html">管理服务</a></div>
+                <div class="son8"><a href="08-院部设置.html">院部设置</a></div>
+                <div class="son9"><a href="09-就业信息.html">就业信息</a></div>
+            </div>
+        </div>
+        <div class="c2">
+            <div class="re">
+                <ul>
+                    <li><img src="images/p37.png" alt="无法加载该图片"></li>
+                    <li><img src="images/p38.png" alt="无法加载该图片"></li>
+                    <li><img src="images/p39.png" alt="无法加载该图片"></li>
+                    <li><img src="images/p40.png" alt="无法加载该图片"></li>
+                    <li><img src="images/p41.png" alt="无法加载该图片"></li>
+                </ul>
+                <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+        </div>
+        <div class="c3">
+            <div class="y1"><a href="https://gznu.jysd.com/vip/user/login">单位登录</a></div>
+            <div class="y2"><a href="https://gznu.jysd.com/user/login">学生登录</a></div>
+            <div class="y3"><a href="https://gznu.jysd.com/admin/default/login">教师登录</a></div>
+        </div>
+        <div class="c4">
+            <div class="m1">
+                <h4>通知公告</h4>
+                <ul>
+                    <li><a href="https://news.gznu.edu.cn/info/1002/47888.htm">校党委书记肖远平带队赴贵阳市开展访企拓岗促就业专项行动</a></li>
+                    <li><a href="https://gznu.jysd.com/news/view/aid/398546/tag/tzgg">贵州师范大学2022届本科毕业生就业促进周 暨“百日冲刺”线上招聘会邀请函</a></li>
+                </ul>
+                <h4>学院动态</h4>
+                <ul>
+                    <li><a href="https://mp.weixin.qq.com/s/sLaM5udN_YP7d0OA6aWhhg">献给贵州师范大学2022届毕业生一场盛大的“再见”！</a></li>
+                    <li><a href="https://gznu.jysd.com/news/view/aid/391090/tag/xwkd">贵州师范大学毕业生就业协会招新啦</a></li>
+                </ul>
+            </div>
+            <div class="m2">
+                <div class="n1"><a href="https://gznu.jysd.com/user/login?referer=/affair/sinfo/introduce"><img src="images/p42.png" alt="无法加载该图片"></a></div>
+                <div class="n2"><a href="https://gznu.jysd.com/affair/file"><img src="images/p43.png" alt="无法加载该图片"></a></div>
+                <div class="n3"><a href="https://gznu.jysd.com/inquiry"><img src="images/p44.png" alt="无法加载该图片"></a></div>
+                <div class="n4"><a href="https://gznu.jysd.com/consult"><img src="images/p45.png" alt="无法加载该图片"></a></div>
+                <div class="n5"><a href="https://gznu.jysd.com/user/login?referer=/affair/sinfo/introduce"><img src="images/p46.png" alt="无法加载该图片"></a></div>
+                <div class="n6"><a href="https://gznu.jysd.com/lecture"><img src="images/p47.png" alt="无法加载该图片"></a></div>
+                <div class="n7"><a href="https://gznu.jysd.com/jobtest"><img src="images/p48.png" alt="无法加载该图片"></a></div>
+                <div class="n8"><a href="https://gznu.jysd.com/news/index/tag/zykc"><img src="images/p49.png" alt="无法加载该图片"></a></div>
+            </div>
+        </div>
+        <div class="c5">
+            <div class="b1"><img src="images/p50.png" alt="无法加载该图片"></div>
+            <div class="b2">
+                <div class="d1">
+                    <div class="v1">
+                        招聘公告
+                        <div class="d2">
+                            <ul>
+                                <li><a href="https://gznu.jysd.com/campus/view/id/831085">珍岛信息技术（上海）股份有限公司</a></li>
+                                <li><a href="https://gznu.jysd.com/campus/view/id/830891">树人文化传媒（深圳）有限公司</a></li>
+                                <li><a href="https://gznu.jysd.com/campus/view/id/830849">深圳市聚心教育发展服务有限公司</a></li>
+                                <li><a href="https://gznu.jysd.com/campus/view/id/830795">中铁二十局集团有限公司 2022届大学毕业生夏季招聘简章</a></li>
+                                <li><a href="https://gznu.jysd.com/campus/view/id/830663">中交四公局2022届夏季校园招聘公告</a></li>
+                            </ul>
+                                 </div>
+                    </div>
+                    <div class="v2">
+                        招聘会
+                        <div class="d3">
+                            <ul>
+                                <li><a href="https://gznu.jysd.com/largefairs/view/id/3976/domain/gznu">贵州师范大学2022届本科毕业生就业“百日冲刺” 线上招聘会</a></li>
+                                <li><a href="https://gznu.jysd.com/largefairs/view/id/3934/domain/gznu">贵州师范大学体育学院2022届本科毕业生线上招聘会</a></li>
+                                <li><a href="https://gznu.jysd.com/largefairs/view/id/3856/domain/gznu">贵州师范大学2022届本科毕业生就业促进周 暨“百日冲刺”线上招聘会</a></li>
+                                <li><a href="https://gznu.jysd.com/jobfair/view/id/41238">长顺县教育系统2022年赴高校公开引进 事业单位工作人员（专场）</a></li>
+                                <li><a href="https://gznu.jysd.com/jobfair/view/id/41275">贵阳贵安“筑人才·强省会”2022届大型校园招聘会</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="v3">
+                        宣讲会
+                        <div class="d4">
+                            <ul>
+                            <li><a href="https://gznu.jysd.com/teachin/view/id/142004">树人文化传媒（深圳）有限公司</a></li>
+                            <li><a href="https://gznu.jysd.com/teachin/view/id/142003">深圳市聚心教育发展服务有限公司</a></li>
+                            <li><a href="https://gznu.jysd.com/teachin/view/id/141998">树人文化传媒（深圳）有限公司</a></li>
+                            <li><a href="https://gznu.jysd.com/teachin/view/id/141994">深圳市聚心教育发展服务有限公司</a></li>
+                            <li><a href="https://gznu.jysd.com/teachin/view/id/141659">贵州多彩宝互联网服务有限公司宣讲会</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="v4">
+                        全职岗位
+                        <div class="d5">
+                            <ul>
+                                <li><a href="https://gznu.jysd.com/job/view/id/1828534">文秘</a></li>
+                                <li><a href="https://gznu.jysd.com/job/view/id/1828531">文秘</a></li>
+                                <li><a href="https://gznu.jysd.com/job/view/id/1828535">直播带货</a></li>
+                                <li><a href="https://gznu.jysd.com/job/view/id/1828001">市场督导</a></li>
+                                <li><a href="https://gznu.jysd.com/job/view/id/1828084">国内营销管培生</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="v5">
+                        政策法规
+                        <div class="d6">
+                            <ul>
+                                <li><a href="https://gznu.jysd.com/news/view/aid/387721/tag/zcfg">创业就业应征入伍公告——教育部</a></li>
+                                <li><a href="https://gznu.jysd.com/news/view/aid/387720/tag/zcfg">筑人才强省会高校毕业生政策问答折页</a></li>
+                                <li><a href="https://gznu.jysd.com/news/view/aid/387719/tag/zcfg">贵州省高校毕业生就业创业政策服务指南</a></li>
+                                <li><a href="https://gznu.jysd.com/news/view/aid/366703/tag/zcfg">【事业】贵阳广播电视台2021年公开招聘优秀人才简章</a></li>
+                                <li><a href="https://gznu.jysd.com/news/view/aid/354386/tag/zcfg">2021年贵州省高校毕业生就业创业政策服务清单</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c7">
+            <div class="k1"><img src="images/p51.png" alt="无法加载该图片"></div>
+            <div class="k2"><img src="images/p52.jpg" alt="无法加载该图片"></div>
+            <div class="k3"><img src="images/p53.png" alt="无法加载该图片"></div>
+            <div class="k4"><img src="images/p54.jpg" alt="无法加载该图片"></div>
+            <div class="k5"><img src="images/p55.png" alt="无法加载该图片"></div>
+        </div>
+        <div class="c8">
+            <div class="h1">地址：（花溪校区）贵州省贵安新区花溪大学城 邮编：550025 电话：0851-83227222</div>
+            <div class="h2">传真：0851-86702041 EMail：6702041@163.com</div>
+            <div class="h3">版权所有@贵州师范大学招生与就业指导处 沪ICP备10005749号-3 技术支持：才立方</div>
+            <div class="h4">Copyright @ gznu.jysd.com All Right reserverd 沪ICP备10005749号-3</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,369 @@
+.total {
+    width: 1140px;
+    height: 1330px;
+    position: relative;
+}
+.top {
+    position: relative;
+}
+.p2,.top {
+    width: 1140px;
+    height: 160px;
+}
+.t1,.t2 {
+    height: 100px;
+    top: 30px;
+    position: absolute;
+}
+.t1 {
+    width: 100px;
+    left: 167px;
+    border-radius: 50px;
+}
+.t2 {
+    width: 300px;
+    left: 290px;
+}
+.z1,.z2 {
+    width: 300px;
+    text-align: center;
+    font-family: serif;
+    color: white;
+}
+.z1 {
+    height: 70px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    line-height: 70px;
+}
+.z2 {
+    height: 25px;
+    font-size: 21px;
+    line-height: 25px;
+} .t1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.content {
+    width: 800px;
+    height: 550px;
+    position: absolute;
+    top: 160px;
+    left: 170px;
+}
+.c1 {
+    width: 800px;
+    height: 40px;
+}
+.son1 {
+    width: 38px;
+    height: 38px;
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: #dee1e6;
+}
+.son2,.son3,.son8,
+.son6,.son7,.son4 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #dee1e6;
+}
+.son5 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #dee1e6;
+}
+.son9 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+}
+.son1 a,.son2 a,.son3 a,.son4 a,.son5 a,
+.son6 a,.son7 a,.son8 a,.son9 a {
+    text-decoration: none;
+    color: black;
+}
+.c2 {
+    width: 1050px;
+    height: 300px;
+    position: absolute;
+    top: 186px;
+    left: 15px;
+    align-items: center;
+}
+.re {
+    position: relative;
+    height: 400px;
+}
+.re ul {
+    list-style-type:none ;
+}
+.re ul>li {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+}
+.re ul>li img {
+    width: 1030px;
+    height: 252px;
+    border-radius: 5px;
+}
+.c2 ol {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5,40px);
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    gap: 1em;
+    float: right;
+    margin-top: 450px;
+    list-style: none;
+    top: -180px;
+    left: 40px;
+}
+.c2 ol li {
+    width: 10px;
+    height: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    float: left;
+    text-align: center;
+    border-radius: 2em;
+    border: 3px solid red;
+}
+.c3 {
+    width: 1030px;
+    height: 50px;
+    position: absolute;
+    top: 500px;
+    left: 55px;
+}
+.y1,.y2,.y3 {
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.y1 {
+    width: 330px;
+    margin-right: 20px;
+    background-color: #5ca6f8;
+}
+.y2 {
+    width: 330px;
+    margin-right: 20px;
+    background-color: skyblue;
+}
+.y3 {
+    width: 329px;
+    background-color: #5ca6f8;
+}
+.y1 a,.y2 a,.y3 a {
+    color: white;
+    text-decoration: none;
+}
+.y1 a:hover,.y2 a:hover,.y3:hover {
+    text-decoration: underline;
+    color: red;
+}
+.c4 {
+    width: 1030px;
+    height: 250px;
+    position: absolute;
+    top: 580px;
+    left: 54px;
+}
+.m1,.m2 {
+    width: 515px;
+    height: 250px;
+    float: left;
+}
+.m1 ul li a {
+    font-size: 5px;
+    color: black;
+    text-decoration: none;
+}
+.m1 ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.n1,.n2,.n3 {
+    width: 125px;
+    height: 123px;
+    margin-right: 5px;
+    float: left;
+}
+.n4 {
+    width: 125px;
+    height: 123px;
+    float: left;
+}
+.n5,.n6,.n7 {
+    width: 125px;
+    height: 123px;
+    margin-top: 4px;
+    margin-right: 5px;
+    float: left;
+}
+.n8 {
+    width: 125px;
+    height: 123px;
+    margin-top: 4px;
+    float: left;
+}
+.m2 img {
+    width: 125px;
+    height: 123px;
+}
+.c5 {
+    width: 1030px;
+    height: 260px;
+    position: absolute;
+    top: 840px;
+    left: 54px;
+}
+.b1,.b2 {
+    height: 260px;
+    float: left;
+}
+.b1 {
+    width: 240px;
+}
+.b2 {
+    width: 790px;
+}
+.b1 img {
+    width: 240px;
+    height: 260px;
+}
+.d1 {
+    width: 790px;
+    height: 40px;
+}
+.d2 {
+    width: 790px;
+    height: 220px;
+    position: absolute;
+    top: 40px;
+    left: 240px;
+    display: none; 
+}
+.d2 ul li a,.d3 ul li a,.d4 ul li a,.d5 ul li a, .d6 ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 5px;
+}
+.d2 ul li a:hover,.d3 ul li a:hover,.d4 ul li a:hover,
+.d5 ul li a:hover,.d6 ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.d3,.d4,.d5,.d6 {
+    width: 790px;
+    height: 220px;
+    position: absolute;
+    top: 40px;
+    left: 240px;
+    display: none; 
+}
+.v1,.v2,.v3,.v4 {
+    width: 150px;
+    height: 40px;
+    float: left;
+    font-family: serif;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: skyblue;
+}
+.v5 {
+    width: 150px;
+    height: 40px;
+    float: left;
+    font-family: serif;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 18px;
+    background-color: skyblue;
+}
+.v1:hover,.v2:hover,.v3:hover,.v4:hover,.v5:hover {
+    background-color: pink; 
+}
+.v1:hover .d2,.v2:hover .d3,.v3:hover .d4,.v4:hover .d5,.v5:hover .d6 {
+    display: block;
+}
+.c7 {
+    width: 1030px;
+    height: 65px;
+    position: absolute;
+    top: 1110px;
+    left: 54px;
+}
+.k1,.k2,.k3,.k4 {
+    width: 202px;
+    height: 65px;
+    float: left;
+    margin-right: 5px;
+}
+.k5 {
+    width: 202px;
+    height: 65px;
+    float: left;
+}
+.k1 img,.k2 img,.k3 img,.k4 img,.k5 img {
+    width: 202px;
+    height: 65px;
+}
+.c8 {
+    width: 1140px;
+    height: 120px;
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    background-color: red;
+}
+.h1,.h2,.h3,.h4 {
+    width: 1140px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+}

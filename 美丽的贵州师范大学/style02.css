@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box1 {
+    width: 750px;
+    height: 9797px;
+    position: relative;
+    top: 210px;
+    left: 250px;
+}
+.son2,.son3,.son4,.son5,
+.son6,.son7,.son8,.son9,
+.son10,.son11,.son12,.son13,
+.son14,.son15,.son16,.son17 {
+    width: 600px;
+    position: absolute;
+    right: 0;
+}
+.son1 {
+    width: 150px;
+    height: 220px;
+    position: fixed;
+}
+.son2 {
+    height: 110px;
+    top: 0;
+}
+.son3 {
+    height: 590px;
+    top: 110px;
+}
+.son4 {
+    height: 45px;
+    top: 700px;
+}
+.son5 {
+    height: 190px;
+    top: 745px;
+}
+.son6 {
+    height: 5365px;
+    top: 935px;
+}
+.son7 {
+    height: 45px;
+    top: 6300px;
+}
+.son8 {
+    height: 725px;
+    top: 6345px;
+}
+.son9 {
+    height: 45px;
+    top: 7070px;
+}
+.son10 {
+    height: 420px;
+    top: 7115px;
+}
+.son11 {
+    height: 45px;
+    top: 7535px;
+}
+.son12 {
+    height: 500px;
+    top: 7580px;
+}
+.son13 {
+    height: 450px;
+    top: 8080px;
+}
+.son14 {
+    height: 560px;
+    top: 8530px;
+}
+.son15 {
+    height: 50px;
+    top: 9040px;
+}
+.son16 {
+    height: 45px;
+    top: 9090px;
+}
+.son17 {
+    height: 612px;
+    top: 9135px;
+}
+.son18,.son19 {
+    width: 600px;
+    position: absolute;
+    border-radius: 3px;
+}
+.son18 {
+    height: 7px;
+    background-color: red;
+    left: 150px;
+    top: 9740px;
+}
+.son19 {
+    height: 50px;
+    left: 150px;
+    top: 9747px;
+}
+.xxgk {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    border-bottom: 2px dashed pink;
+}
+.xxjj,.xxbs,.xxxg,.xrld,.xydt {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 100;
+    border-bottom: 2px dashed pink;
+}
+.jxbszn {
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.xxjj a,.xxbs a,
+.xxxg a,.xrld a,
+.xydt a,.jxbszn a {
+    color: black;
+    text-decoration: none;
+}
+.xxjj:hover,
+.xxbs:hover,
+.xxxg:hover,
+.xrld:hover,
+.xydt:hover,
+.jxbszn:hover {
+    background-color: pink;
+}   
+.x3,.x6,.x8,.x10,.x12 {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+.x4,.x7,.x9,.x11,.x13 {
+    width: 525px;
+    height: 3px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    background-color: red;
+}
+.x1 {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+.x2 {
+    width: 525px;
+    height: 3px;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    background-color: red;
+}
+p {
+    text-indent: 2em;
+    font-size: 5px;
+}
+.in {
+    text-indent: 520px;
+}
+.in a {
+    text-decoration: none;
+    color: red;
+}
+.son17 .in a {
+    text-decoration: none;
+    color: red;
+}
+.son17 .in a:hover {
+    text-decoration: none;
+}
+.x5 {
+    width: 190px;
+    height: 190px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 205px;
+}
+.x5 img {
+    width: 190px;
+    height: 190px;
+    text-align: center;
+}
+.z {
+    text-align: right;
+    font-size: 5px;
+    font-weight: 700;
+}
+.q {
+    text-indent: 100px;
+}
+.son12 img,.son14 img {
+    width: 600px;
+    height: 500px;
+}
+.son13 img {
+    width: 600px;
+    height: 450px;
+}
+.son17 a {
+    font-size: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.son17 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.son19 .s1,.son19 .s2 {
+    width: 600px;
+    height: 25px;
+    font-size: 5px;
+    font-weight: 100;
+    line-height: 25px;
+    font-style: italic;
+}
+.top2 {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    background-color: red;
+}
+.t1,.t2 {
+    height: 100px;
+    top: 30px;
+    position: absolute;
+}
+.t1 {
+    width: 100px;
+    left: 167px;
+    border-radius: 50px;
+}
+.t2 {
+    width: 300px;
+    left: 290px;
+}
+.z1,.z2 {
+    width: 300px;
+    text-align: center;
+    font-family: serif;
+    color: white;
+}
+.z1 {
+    height: 70px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    line-height: 70px;
+}
+.z2 {
+    height: 25px;
+    font-size: 21px;
+    line-height: 25px;
+} 
+.t1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.p2,.top2 {
+    width: 1140px;
+    height: 160px;
+}
+.top3 {
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 160px;
+    left: 165px;
+}
+.bt1 {
+    width: 38px;
+    height: 38px;
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: #dee1e6;
+}
+.bt5,.bt3,.bt8,
+.bt6,.bt7,.bt4 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #dee1e6;
+}
+.bt2 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+}
+.bt9 {
+    width: 88px;
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #dee1e6;
+}
+.bt1 a,.bt2 a,.bt3 a,.bt4 a,.bt5 a,
+.bt6 a,.bt7 a,.bt8 a,.bt9 a {
+    text-decoration: none;
+    color: black;
+}
